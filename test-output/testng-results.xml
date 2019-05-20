@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="9" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="208" started-at="2019-05-17T23:51:43Z" finished-at="2019-05-17T23:51:43Z">
+    <groups>
+      <group name="cartoon">
+        <method signature="Month.month1()[pri:0, instance:testng.Month@1753acfe]" name="month1" class="testng.Month"/>
+        <method signature="Month.month2()[pri:0, instance:testng.Month@1753acfe]" name="month2" class="testng.Month"/>
+      </group> <!-- cartoon -->
+    </groups>
+    <test name="Test" duration-ms="53" started-at="2019-05-17T23:51:43Z" finished-at="2019-05-17T23:51:43Z">
+      <class name="testng.Month">
+        <test-method status="PASS" signature="month1()[pri:0, instance:testng.Month@1753acfe]" name="month1" duration-ms="11" started-at="2019-05-17T23:51:43Z" finished-at="2019-05-17T23:51:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- month1 -->
+        <test-method status="PASS" signature="month2()[pri:0, instance:testng.Month@1753acfe]" name="month2" duration-ms="1" started-at="2019-05-17T23:51:43Z" finished-at="2019-05-17T23:51:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- month2 -->
+      </class> <!-- testng.Month -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="118" started-at="2019-05-17T23:51:43Z" finished-at="2019-05-17T23:51:43Z">
+      <class name="junit.Tom">
+        <test-method status="PASS" signature="tom()" name="tom" duration-ms="15" started-at="2019-05-17T23:51:43Z" finished-at="2019-05-17T23:51:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tom -->
+      </class> <!-- junit.Tom -->
+      <class name="junit.Jerry">
+        <test-method status="PASS" signature="week()" name="week" duration-ms="2" started-at="2019-05-17T23:51:43Z" finished-at="2019-05-17T23:51:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- week -->
+      </class> <!-- junit.Jerry -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
